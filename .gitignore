@@ -1,0 +1,33 @@
+
+# Playwright
+node_modules/
+
+#environment and secrets
+.env
+.env.local
+.env.*.local
+#playwright test artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+#reports
+/reports/
+/allure-report/
+/allure-results/
+/custom-reports/
+#Tool/IDE config
+.claude
+.playwright-cli/
+.playwright-mcp/
+#OS files
+.DB_Store
+Thumbs.db
+desktop.ini
+#Editor swap/temp files
+*.swp
+*.swo
+
+
+
